@@ -19,7 +19,7 @@ h1 {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 4px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 6px 12px 6px rgba(0, 0, 0, 0.705);
 }
 
 .btn {
