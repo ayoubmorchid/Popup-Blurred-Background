@@ -26,7 +26,8 @@ h1 {
   padding: 10px 20px;
   width: 200px;
   cursor: pointer;
-  background-color: orangered;
+  background-color: #7b09e6b6;
+  color: rgb(188, 188, 255);
   border: none;
   border-radius: 5px;
   font-size: 20px;
@@ -72,7 +73,7 @@ label {
 }
 
 .popup-btn {
-  background-color: orangered;
+  background-color: rgb(255, 255, 255);
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
