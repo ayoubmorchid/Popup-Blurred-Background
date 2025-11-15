@@ -73,11 +73,12 @@ label {
 }
 
 .popup-btn {
-  background-color: rgb(255, 255, 255);
+  background-color: #530799;
+  color:  white;
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
-  border: 2px solid;
+  border: 1px solid #530799;
 }
 
 .input {
