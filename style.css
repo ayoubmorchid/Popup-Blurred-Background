@@ -27,15 +27,20 @@ h1 {
   width: 200px;
   cursor: pointer;
   background-color: #530799;
-  color:  white;
+  color: white;
   border: none;
   border-radius: 5px;
   font-size: 20px;
+  box-shadow: 2px 2px 8px #3c3a3f;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .btn:hover {
   filter: brightness(0.8);
+  transform: translateY(-4px);
+  box-shadow: 4px 6px 14px #3c3a3f;
 }
+
 
 .active.container {
   filter: blur(5px) brightness(0.7);
