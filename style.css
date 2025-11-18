@@ -87,17 +87,23 @@ label {
 }
 
 .input {
-  border: 2px solid;
+  border: 1px solid #530799;
+  background-color: transparent;
+  color: #530799;
   padding: 10px;
   margin: 10px 0;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
 .input::placeholder {
-  color: lightgray;
+  color: #530799;
 }
 
+input:focus {
+  outline: none;
+  background-color: #d2abf785;
+}
 .close-icon {
   position: absolute;
   right: 20px;
